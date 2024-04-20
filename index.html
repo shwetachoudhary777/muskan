@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+  .phone {
+    height: 70px;
+    position: absolute;
+    left: 140px;
+    position: absolute;
+    top: 10px;
+  }
+
+  .nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+  }
+
+  .business {
+    position: absolute;
+    left: 400px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .pres {
+    position: absolute;
+    left: 630px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .careers {
+    position: absolute;
+    left: 730px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .about {
+    position: absolute;
+    left: 850px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .blog {
+    position: absolute;
+    left: 1000px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .contact {
+    position: absolute;
+    left: 1100px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .trust {
+    position: absolute;
+    left: 1250px;
+    position: absolute;
+    top: 35px;
+  }
+
+  .first {
+    height: 500px;
+    width: 100%;
+  }
+
+  .download {
+    color: blueviolet;
+    position: absolute;
+    bottom: 650px;
+    position: absolute;
+    left: 150px;
+    font-size: 30px;
+  }
+
+  .from {
+    position: absolute;
+    bottom: 550px;
+    position: absolute;
+    left: 150px;
+    font-size: 30px;
+    color: antiquewhite;
+  }
+
+  .button {
+    position: absolute;
+    left: 150px;
+    position: absolute;
+    top: 400px;
+    height: 50px;
+    border-radius: 20px;
+    width: 250px;
+  }
+
+  .radio1 {
+    position: absolute;
+    left: 720px;
+    position: absolute;
+    bottom: 300px;
+  }
+
+  .radio2 {
+    position: absolute;
+    left: 740px;
+    position: absolute;
+    bottom: 300px;
+  }
+
+  .radio3 {
+    position: absolute;
+    left: 760px;
+    position: absolute;
+    bottom: 300px;
+  }
+
+  .radio4 {
+    position: absolute;
+    left: 780px;
+    position: absolute;
+    bottom: 300px;
+  }
+
+  .radio5 {
+    position: absolute;
+    left: 800px;
+    position: absolute;
+    bottom: 300px;
+  }
+
+  .radio6 {
+    position: absolute;
+    left: 820px;
+    position: absolute;
+    bottom: 300px;
+  }
+
+
+
+  .images {
+    height: 255px;
+    width: 300px;
+    border-color: black;
+    border-radius: 20px;
+  }
+
+  #boxes {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 400px; 
+  }
+  
+  .secure {
+    position: absolute;
+    color: blueviolet;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+
+  .fast {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .app {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 180px;
+    font-size: small;
+  }
+
+  .line {
+    width: 500px;
+    border-color: black;
+    margin-top: 220px;
+    margin-left: 300px;
+  }
+
+  .bills {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+
+  .like {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 40px;
+    font-size: small;
+  }
+
+  .choose {
+    width: 500px;
+    border-color: black;
+    margin-top: 100px;
+    margin-left: 300px;
+  }
+
+  .find {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+
+  .card {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: small;
+  }
+
+  .music {
+    margin-left: 900px;
+    position: absolute;
+    bottom: -700px;
+  }
+
+  .loop {
+    height: 200px;
+    width: 500px;
+    margin-left: 600px;
+    position: absolute;
+    bottom: -900px;
+  }
+
+  .type {
+    height: 100px;
+    width: 300px;
+    margin-left: 700px;
+    position: absolute;
+    bottom: -1000px;
+  }
+
+  .vedio1 {
+    margin-left: 200px;
+    position: absolute;
+    bottom: -1500px;
+    transition: 0.5s;
+  }
+  
+
+  .vedio1:hover {
+    transform:scale(1.1);
+    z-index: 1;
+  }
+
+  .vedio2 {
+    margin-left: 450px;
+    position: absolute;
+    bottom: -1500px;
+    transition: 0.5s;
+  }
+
+  .vedio2:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .vedio3 {
+    margin-left: 600px;
+    position: absolute;
+    bottom: -1500px;
+    transition: 0.5s;
+  }
+
+  .vedio3:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .vedio4 {
+    margin-left: 850px;
+    position: absolute;
+    bottom: -1500px;
+    transition: 0.5s;
+  }
+
+  .vedio4:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .vedio5 {
+    margin-left: 1200px;
+    position: absolute;
+    bottom: -1500px;
+    transition: 0.5s;
+  }
+
+  .vedio5:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .watch {
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    position: absolute;
+    bottom: -1600px;
+    margin-left: 700px;
+  }
+
+  .offer {
+    position: absolute;
+    bottom: -1700px;
+    margin-left: 400px;
+  }
+
+  .every {
+    position: absolute;
+    bottom: -1750px;
+    margin-left: 700px;
+    color: blueviolet;
+    font-size: 20px;
+  }
+
+
+  .unlock {
+    height: 350px;
+    width: 1500px;
+    position: absolute;
+    bottom: -2100px;
+    margin-left: 200px;
+    border-radius: 20px;
+  }
+
+  .crore {
+    position: absolute;
+    bottom: -2300px;
+    margin-left: 500px;
+    color: blueviolet;
+    font-size: 40px;
+  }
+
+  .acces {
+    position: absolute;
+    bottom: -2350px;
+    margin-left: 700px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aquamarine;
+  }
+
+  .move {
+    position: absolute;
+    bottom: -2800px;
+    margin-left: 200px;
+    height: 400px;
+    width: 1400px;
+     
+  }
+ 
+  
+    
+  .accept {
+    position: absolute;
+    bottom: -3300px;
+    height: 500px;
+    width: 600px;
+    margin-left: 200px;
+   
+  }
+  
+
+  .for {
+    position: absolute;
+    bottom: -2900px;
+    margin-left: 1100px;
+    font-size: 40px;
+    color: blueviolet;
+  }
+
+  .needs {
+    position: absolute;
+    bottom: -2950px;
+    margin-left: 1100px;
+  }
+
+  .want {
+    position: absolute;
+    bottom: -3050px;
+    margin-left: 1100px;
+    font-size: 40px;
+    color: black;
+  }
+
+  .be {
+    position: absolute;
+    bottom: -3100px;
+    color: rgb(47, 102, 231);
+    font-size: 30px;
+    margin-left: 1100px;
+  }
+
+  .news {
+    position: absolute;
+    bottom: -3140px;
+    margin-left: 1100px;
+  }
+
+  .equal {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    bottom: -3150px;
+    margin-left: 1100px;
+  }
+
+  .stores {
+    position: absolute;
+    bottom: -3200px;
+    color: rgb(47, 102, 231);
+    font-size: 30px;
+    margin-left: 1100px;
+  }
+
+  .sto {
+    position: absolute;
+    bottom: -3240px;
+    margin-left: 1100px;
+  }
+
+  .cash {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    bottom: -3250px;
+    margin-left: 1100px;
+  }
+
+  .payment {
+    position: absolute;
+    bottom: -3300px;
+    color: rgb(47, 102, 231);
+    font-size: 30px;
+    margin-left: 1100px;
+  }
+
+  .way {
+    position: absolute;
+    bottom: -3340px;
+    margin-left: 1100px;
+
+  }
+
+  .online {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    bottom: -3350px;
+    margin-left: 1100px;
+  }
+
+
+  .on {
+    position: absolute;
+    bottom: -3400px;
+    color: rgb(47, 102, 231);
+    font-size: 30px;
+    margin-left: 1100px;
+  }
+
+  .off {
+    position: absolute;
+    bottom: -3440px;
+    margin-left: 1100px;
+  }
+
+  .not {
+    position: absolute;
+    bottom: -3900px;
+  }
+
+  .always {
+    position: absolute;
+    bottom: -4600px
+  }
+</style>
+
+<body>
+  <nav class="nav">
+    <img src="Screenshot 2024-04-20 153831.png" class="phone" />
+    <li class="business">BUSINESS SOLUTIONS</li>
+    <li class="pres">PRES</li>
+    <li class="careers">CAREERS</li>
+    <li class="about">ABOUT US</li>
+    <li class="blog">BLOG</li>
+    <li class="contact">CONTACT US</li>
+    <li class="trust">TRUST & SAFETY</li>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="hp-banner-sm-2.jpg" class="d-block w-100" alt="1">
+      </div>
+      <div class="carousel-item">
+        <img src="white.png" class="d-block w-100" alt="2">
+      </div>
+      <div class="carousel-item">
+        <img src="wonder.png" class="d-block w-100" alt="3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <p class="download">DOWNLOAD ALL YOUR FAVOURITE APPS</p>
+  <p class="from">From India's very own<br>Android app store</p>
+  <button class="button">Download Indus Appstore</button>
+  <input type="radio" class="radio1" />
+  <input type="radio" class="radio2" />
+  <input type="radio" class="radio3" />
+  <input type="radio" class="radio4" />
+  <input type="radio" class="radio5" />
+  <input type="radio" class="radio6" />
+  <section id="boxes">
+
+    <img src="imge.png" class="images">
+
+
+
+    <img src="Screenshot 2024-04-19 153812.png" class="images">
+
+
+
+    <img src="Screenshot 2024-04-19 153635.png" class="image3">
+
+  </section>
+
+
+
+
+  <h4 class="secure"> simple,fast & secure</h4>
+  <h4 class="fast"> One app for all things money.</h4>
+  <h4 class="app"> Pay bills, recharge, send money, buy gold, invest and shop at your favourite stores.</h4>
+  <hr class="line">
+  <h4 class="bills"> Pay whenever you like, wherever you like.</h4>
+  <h4 class="like"> Choose from options like UPI, the PhonePe wallet or your Debit and Credit Card.</h4>
+  <hr class="choose">
+  <h4 class="find"> Find all your favourite apps on PhonePe Switch.</h4>
+  <h4 class="card"> Book flights, order food or buy groceries. Use all your favourite apps<br> without downloading them.
+  </h4>
+  <video autoplay="" loop="" muted="" poster="/static/fast-secure-video-poster-v3-6f33427d52f42e474727f7442b029c59.png"
+    class="music">
+    <source src="https://www.phonepe.com/webstatic/6729/videos/page/home-fast-secure-v3.mp4" type="video/mp4">
+  </video>
+  <img src="karte.png" class="loop" />
+  <img src="Screenshot 2024-04-20 153831.png" class="type" />
+  <img src="vedio1.png" class="vedio1" />
+  
+  <img src="vedio2.png" class="vedio2" />
+  
+  <img src="vedio3.png" class="vedio3" />
+ 
+  <img src="vedio4.png" class="vedio4" />
+  
+  <img src="vedio5.png" class="vedio5" />
+  
+  <button class="watch"> watch all vedio</button>
+  <p class="offer">Payments on PhonePe are safe, reliable and fast. One in three Indians are now using the PhonePe app
+    to send money, recharge, pay<br> bills and do so much more, in just a few simple clicks. PhonePe has also introduced
+    several Insurance products and Investment <br> options that offer every Indian an equal opportunity to unlock the
+    flow of money, and get access to financial services.</p>
+  <p class="every"> #KarteJaBadhteJa</p>
+  <img src="Screenshot 2024-04-20 125636.png" class="unlock" />
+  <p class="crore"> At 3.9 Crore
+    stores, apps, websites & more</p>
+  <button class="acces"> partner with us </button>
+  <img src="icon11.png" class="move" />
+  <img src="Screenshot 2024-04-20 132744.png" class="accept" />
+  <p class="for">For Business</p>
+  <p class="needs"> Find the digital payment solution that fits your business needs</p>
+  <p class="want">I want to:</p>
+  <p class="be"> Be on phonepe switch</p>
+  <p class="news"> get new user for yours apps</p>
+  <hr class="equal">
+  <p class="stores"> Accepts payment at stores</p>
+  <p class="sto"> Helps your bussiness go cashless</p>
+  <hr class="cash">
+  <p class="payment"> Intergrate phonepay payment Gateway</p>
+  <p class="way"> process online payment seemleasly</p>
+  <hr class="online">
+  <p class="on"> Advertise on phonepay</p>
+  <p class="off"> Advertise & let customer know about you</p>
+  <img src="Screenshot 2024-04-20 140349.png" class="not" />
+  <img src="Screenshot 2024-04-20 140720.png" class="always" />
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
